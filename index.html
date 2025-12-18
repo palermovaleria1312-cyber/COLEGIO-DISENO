@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MI PEQUEÑITA LUZ — Inicial y Primaria</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="brand">
+      <div class="logo-wrap" aria-label="Logo del colegio">
+        <img src="assets/logo-mpl.jpg" alt="Logo Mi Pequeñita Luz" />
+      </div>
+      <div class="brand-text">
+        <div class="school-name">MI PEQUEÑITA LUZ</div>
+        <div class="school-sub">Inicial y Primaria • San Miguel</div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#mision">Misión</a>
+      <a href="#vision">Visión</a>
+      <a href="#meta">Meta</a>
+      <a href="#talleres">Talleres</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#reglamento">Reglamento</a>
+      <a href="#admision" class="pill">Admisión 2026</a>
+      <a href="#intranet" class="pill ghost">Intranet Padres</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-card">
+        <h1>Educación Inicial y Primaria con amor, valores y aprendizajes para toda la vida</h1>
+        <p>
+          En <strong>Mi Pequeñita Luz</strong> acompañamos a cada estudiante en su desarrollo integral:
+          comunicación, pensamiento lógico, creatividad, valores y convivencia. Un ambiente seguro,
+          alegre y cercano para que tus hijos crezcan felices y seguros de sí mismos.
+        </p>
+      </div>
+    </section>
+
+    <section id="mision" class="section">
+      <div class="section-card">
+        <h2>Misión</h2>
+        <p>Brindar una educación de calidad en Inicial y Primaria, fortaleciendo valores, habilidades y el desarrollo socioemocional en un entorno seguro, creativo y afectivo.</p>
+      </div>
+    </section>
+
+    <section id="vision" class="section">
+      <div class="section-card">
+        <h2>Visión</h2>
+        <p>Ser un colegio referente en San Miguel por formar estudiantes felices, responsables y capaces de aprender con confianza, respeto y entusiasmo.</p>
+      </div>
+    </section>
+
+    <section id="meta" class="section">
+      <div class="section-card">
+        <h2>Meta</h2>
+        <p>Potenciar el aprendizaje activo y la formación en valores, promoviendo competencias académicas y artísticas mediante talleres, proyectos y actividades educativas.</p>
+      </div>
+    </section>
+
+    <section id="talleres" class="section">
+      <div class="section-card">
+        <h2>Talleres escolares</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="badge">👩‍🍳</div>
+            <h3>Minichef</h3>
+            <p>Desarrolla hábitos saludables, trabajo en equipo y creatividad preparando recetas sencillas y divertidas.</p>
+          </article>
+          <article class="card">
+            <div class="badge">🎭</div>
+            <h3>Teatro Bilingüe</h3>
+            <p>Expresión corporal, dicción y confianza, combinando el juego teatral con vocabulario en inglés.</p>
+          </article>
+          <article class="card">
+            <div class="badge">🧪</div>
+            <h3>Feria de Ciencias</h3>
+            <p>Curiosidad y pensamiento crítico con experimentos guiados, investigación y exposición de proyectos.</p>
+          </article>
+          <article class="card">
+            <div class="badge">🌟</div>
+            <h3>Noche de Talentos</h3>
+            <p>Un espacio para mostrar habilidades: canto, baile, música y expresiones artísticas.</p>
+          </article>
+          <article class="card">
+            <div class="badge">💃</div>
+            <h3>Festival de Danzas</h3>
+            <p>Tradición y cultura con coreografías que fortalecen coordinación, ritmo y trabajo grupal.</p>
+          </article>
+          <article class="card">
+            <div class="badge">🎉</div>
+            <h3>Actividades</h3>
+            <p>Eventos, celebraciones y dinámicas que fortalecen convivencia, valores y participación familiar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="section-card">
+        <h2>Galería de fotos</h2>
+        <div class="gallery">
+          <figure class="photo">
+            <img src="assets/talentos.jpg" alt="Noche de talentos" loading="lazy" />
+            <figcaption>Noche de Talentos</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="assets/olimpiadas.jpg" alt="Olimpiadas y actividades deportivas" loading="lazy" />
+            <figcaption>Olimpiadas</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="admision" class="section">
+      <div class="section-card">
+        <h2>Admisión 2026</h2>
+        <p class="muted">Contacta para mayor información dejando tus datos aquí:</p>
+
+        <form class="form" id="admisionForm">
+          <label>
+            Nombre completo
+            <input required name="nombre" type="text" placeholder="Ej. Juan Pérez" />
+          </label>
+          <label>
+            Teléfono
+            <input required name="telefono" type="tel" placeholder="Ej. 993 558 729" />
+          </label>
+          <label>
+            Correo
+            <input required name="correo" type="email" placeholder="Ej. correo@ejemplo.com" />
+          </label>
+          <label>
+            Grado al que postula
+            <select required name="grado">
+              <option value="">Selecciona…</option>
+              <option>3 años</option>
+              <option>4 años</option>
+              <option>5 años</option>
+              <option>1ro de primaria</option>
+              <option>2do de primaria</option>
+              <option>3ro de primaria</option>
+              <option>4to de primaria</option>
+              <option>5to de primaria</option>
+              <option>6to de primaria</option>
+            </select>
+          </label>
+          <button type="submit" class="cta">Enviar</button>
+          <div class="form-note">*Este formulario es informativo. Al enviarlo, se mostrará un mensaje de confirmación.</div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="section-card">
+        <h2>Contacto</h2>
+
+        <div class="contact-grid">
+          <a class="contact-item" target="_blank" rel="noopener" href="https://www.google.com/maps?q=Av.+Libertad+2916,+San+Miguel,+Per%C3%BA">
+            <span class="icon">📍</span>
+            <span>
+              <strong>Dirección</strong><br/>
+              Av. Libertad 2916 - San Miguel
+            </span>
+          </a>
+
+          <a class="contact-item" href="mailto:pequenitaluz.sanmiguel@gmail.com">
+            <span class="icon">✉️</span>
+            <span>
+              <strong>Correo</strong><br/>
+              pequenitaluz.sanmiguel@gmail.com
+            </span>
+          </a>
+
+          <a class="contact-item" target="_blank" rel="noopener" href="https://wa.me/51993558729">
+            <span class="icon svg">
+              <img src="assets/iconos/whatsapp.svg" alt="" />
+            </span>
+            <span>
+              <strong>WhatsApp</strong><br/>
+              +51 993 558 729
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reglamento" class="section">
+      <div class="section-card">
+        <h2>Reglamento</h2>
+        <p class="muted">Aquí puedes colocar el reglamento del colegio (PDF o texto). Por ahora es un espacio reservado.</p>
+      </div>
+    </section>
+
+    <section id="intranet" class="section">
+      <div class="section-card">
+        <h2>Intranet Padres</h2>
+        <p class="muted">Espacio reservado para acceso de padres (usuario/contraseña). Se puede conectar a una plataforma más adelante.</p>
+      </div>
+    </section>
+
+    <div class="float-social" aria-label="Redes sociales">
+      <a class="float-btn" target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61585478181577&sk=about" title="Facebook">
+        <img src="assets/iconos/facebook.svg" alt="Facebook" />
+      </a>
+      <a class="float-btn" target="_blank" rel="noopener" href="https://www.instagram.com/" title="Instagram">
+        <img src="assets/iconos/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+
+  </main>
+
+  <footer class="footer">© 2025 — Todos los derechos reservados.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
